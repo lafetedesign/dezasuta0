@@ -2,8 +2,7 @@
 /*Work2*/
 section{
     background-color: #eeeeee;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 0;
 }
 h2{
     text-align: center;
@@ -17,8 +16,7 @@ ul{
     margin: 0 auto;
 }
 li:nth-child(2){
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0 20px;
 }
 li{
     background-color: white;
@@ -32,26 +30,21 @@ h3{
     font-size:x-large;
 }
 p{
-    margin-top: 15px;
-    margin-left: 10px;
-    margin-right: 15px;
-    margin-bottom: 15px;
+    margin: 15px 15px 15px 10px;
     font-size:16px;
 }
 
-@media screen and ( max-width: 767px ){
+@media screen and ( max-width: 400px ){
     ul{
         display: block;
-       padding-left: 10px;
-       padding-right: 10px;
+        padding: 0 10px;
     }
     li{
         width: 100%;
         margin-bottom: 30px;      
     }
     li:nth-child(2){
-        margin-left: 0px;
-        margin-right: 0px;
+        margin:0 0px;
     }
     img{
         width: 100%;
