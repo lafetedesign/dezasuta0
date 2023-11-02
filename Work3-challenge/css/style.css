@@ -1,0 +1,75 @@
+@charset "utf-8";
+header{ 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 80px 0; 
+}
+h1{
+    font-size: 40px; 
+    margin-left:50px;/*画面幅が縮まった時・・左右の余白がありすぎる*/
+}
+.subtitle{
+    font-size: medium;
+}
+ul{ /*見本と書き方違う？*/
+    display: flex;
+}
+.nav-item{
+    margin: 30px 50px 0 0;
+}
+li:nth-child(5){
+    margin: 20px 50px 0 20px;
+
+}
+.top-image{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+.text{
+    width: 70%; /*画面幅が縮まると写真の幅とズレる*/
+    margin: 100px auto;
+    text-align: left;
+    font-size: 28px;
+    line-height: 150%; /*反映されない*/
+}
+section{
+    width: 70%;
+    margin: 0 auto;
+    border-bottom:  1px solid;
+}
+.blog{
+    margin-bottom: 50px;
+}
+.time{
+   width: 30%;
+}
+.title{
+    width: 70%;
+}
+h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+footer{
+    width: 70%;
+    margin: 80px auto;
+}
+.plofile{
+    margin-top: 80px;
+
+}
+.plofile-photo{
+    width: 100px;
+    margin-right: 30px;
+}
+
+.photo{
+    border-radius:50%;
+    
+}
+

@@ -1,0 +1,22 @@
+@charset "utf-8";
+/*検索窓のこと*/
+/*テキスト入力input設定*/
+#search-text{
+  -webkit-appearance:none;/*SafariやChromeのデフォルトの設定を無効*/
+  width: 30px;/*テキスト入力エリアが伸びる前の横幅*/
+  height: 30px;
+  padding-right: 20px;
+  border: none;
+  background:#fff url("https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/7-2-3/img/icon_search.svg") no-repeat 17px center;/*虫眼鏡アイコンを背景に表示*/
+  background-size: 25px 25px;
+  transition: all 0.5s;/*transitionを使ってスムースに伸ばす*/
+  outline: none;
+  cursor: pointer;/*カーソルを指マークに*/
+}
+
+/*テキスト入力inputにフォーカスした時の形状*/
+ #search-text:focus {
+  width: 180px;/*テキスト入力エリアが伸びる後の横幅*/
+  padding: 10px 0 20px 40px;
+  box-shadow: 0 2px rgba(6,0,1,.26);
+}
