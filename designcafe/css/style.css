@@ -1,0 +1,218 @@
+@charset "utf-8";
+body{
+    background-color: #e8d9bf;
+}
+
+.header_container{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 7% 0 2.7%;
+    box-sizing: border-box;
+}
+.logo img{
+    width: 226.76px;
+}
+.header_nav ul{
+    display: flex;
+    gap: 45px;
+}
+.header_nav li{
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    width: 105px;
+    text-align: center;
+}
+.slider{
+    width: 100%;
+   
+}
+.slider img{
+    width: 100%;
+}
+.lead{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 106px;
+}
+.lead01{
+    margin-bottom: 65px;
+    font-size: 30px;
+}
+.lead02{
+    margin-bottom: 53px;
+    font-size: 82px;
+    line-height:1.17;
+}
+.lead03{
+    margin-bottom: 100px;
+    font-size: 23px;
+    line-height:1.65;
+}
+#about{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 109px;
+    display: flex;
+
+}
+.about-img{
+    margin-right: 84px;
+    width: 500px;                           /*マスクかけたい*/
+    height: 560px;
+    border-bottom-right-radius:82px;
+}
+.about-title{
+    margin: 68px 0 60px 0;
+    width: 272.39px;
+}
+.about-lead{
+    margin-bottom: 38px;
+    font-size: 44px;
+    line-height:1.38;
+}
+.about-text{
+    font-size: 16px;
+    line-height:1.625;
+}
+#menu{
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.menu-title{
+    width: 151px;
+    text-align: center;
+    margin: 0 auto;
+}
+.menuitem{
+    margin: 49px 0 168px 0;
+    display: flex;
+    gap:48.74px
+}
+.menuitem img{
+    border-top-right-radius:42px;            /*マスクかけたい*/
+}
+.menuitem h3{
+    margin-top: -20px;
+    font-size: 38px;
+    color: #d30202;
+    font-weight: lighter;
+    text-align: left;
+}
+.menuitem p{
+    margin-top: 24px;
+    font-size: 17px;
+    line-height: 1.47;
+    text-align: left;
+}
+.gallery-title{
+    width: 245px;
+    text-align: center;
+    margin: 0 auto;
+}
+.gallery-slider{
+    margin-top: 26px;
+    width: 100%;
+    display: flex;
+}
+.gallery-slider img{
+    margin-bottom: 71px;
+    width: 384px;                        /*マスクかけたい*/
+    height: 300px;                       /*写真が全部入らない*/
+}
+#event{
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+}
+.event-title{
+    width: 173px;
+    text-align: center;
+    margin: 0 auto;
+}
+.eventitem{
+    margin-top: 40px;
+    margin-bottom: 79px;
+    padding: 40px 148px 40px 158px ;
+    background-color: #fff;
+    border: 3.68px solid #4f260b;
+}
+
+.eventitem li{
+    display: flex;
+    align-items: center;
+}
+.eventitem p{
+    margin-right: 55.7px;
+    font-size: 23px;
+}
+.eventitem a{
+    font-size: 24px;
+    border-bottom: 1px solid #4f260b;
+}
+.eventitem02{
+   margin: 22px 0;
+}
+#access{
+    text-align: center;
+    margin: 0 auto;
+}
+.access-title{
+    width: 214px;
+    text-align: center;
+    margin: 0 auto;
+}
+iframe{
+    width: 100%;
+    margin-top: 47px;
+    filter: grayscale(100%) invert(92%) contrast(83%);
+}
+footer{
+    padding-top: 82px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;  
+    justify-content: center;
+}
+.footerlogo{
+    margin-right: 70px;
+    width: 226px; 
+    vertical-align: top;                  /*上揃えしたいが効かない*/
+}
+footer p{
+    font-size: 20px;
+    color: black;
+}
+footer li{
+    margin-bottom: 24px;
+}
+.copyright{
+    padding-top: 83px;
+    padding-bottom: 81px;
+    color: black;
+    background-color: #fff;
+    text-align: center;
+    margin: 0 auto;
+}
+.pagetop {
+    height: 125px;
+    width: 125px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background: #d30202;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
