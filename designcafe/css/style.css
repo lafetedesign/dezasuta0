@@ -174,7 +174,7 @@ iframe{
     margin-top: 47px;
     filter: grayscale(100%) invert(92%) contrast(83%);
 }
-footer{
+.footer-adress{
     padding-top: 82px;
     background-color: #fff;
     display: flex;
@@ -208,11 +208,9 @@ footer li{
     position: fixed;
     right: 30px;
     bottom: 30px;
-    background: #d30202;
-    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 2;
+    z-index: 1;
 }
 
