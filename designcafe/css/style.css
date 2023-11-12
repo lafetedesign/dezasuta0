@@ -58,17 +58,17 @@ body{
     max-width: 1000px;
     margin: 0 auto;
     margin-bottom: 109px;
+    padding: 0 10px;
     display: flex;
-
+    align-items: center;
 }
 .about-img{
     margin-right: 84px;
-    width: 500px;                           /*マスクかけたい*/
-    height: 560px;
+    width: 50%;                          
     border-bottom-right-radius:82px;
 }
 .about-title{
-    margin: 68px 0 60px 0;
+    margin: 0 0 60px 0;
     width: 272.39px;
 }
 .about-lead{
@@ -82,6 +82,7 @@ body{
 }
 #menu{
     max-width: 1000px;
+    padding: 0 10px;
     text-align: center;
     margin: 0 auto;
 }
@@ -97,7 +98,7 @@ body{
     gap:48.74px
 }
 .menuitem img{
-    border-top-right-radius:42px;            /*マスクかけたい*/
+    border-top-right-radius:42px;     
 }
 .menuitem h3{
     margin-top: -20px;
@@ -124,11 +125,11 @@ body{
 }
 .gallery-slider img{
     margin-bottom: 71px;
-    width: 384px;                        /*マスクかけたい*/
-    height: 300px;                       /*写真が全部入らない*/
+    width: 20%;
 }
 #event{
     max-width: 1000px;
+    padding: 0 10px;
     text-align: center;
     margin: 0 auto;
 }
@@ -140,25 +141,27 @@ body{
 .eventitem{
     margin-top: 40px;
     margin-bottom: 79px;
-    padding: 40px 148px 40px 158px ;
+    padding: 40px 0 ;
     background-color: #fff;
     border: 3.68px solid #4f260b;
 }
 
 .eventitem li{
+    max-width: 670px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
 }
 .eventitem p{
-    margin-right: 55.7px;
+    margin-right: 35px;
     font-size: 23px;
 }
 .eventitem a{
-    font-size: 24px;
+    font-size: 23px;
     border-bottom: 1px solid #4f260b;
 }
-.eventitem02{
-   margin: 22px 0;
+.eventitem li:nth-child(2){
+    margin: 21px auto;
 }
 #access{
     text-align: center;
@@ -174,18 +177,20 @@ iframe{
     margin-top: 47px;
     filter: grayscale(100%) invert(92%) contrast(83%);
 }
-.footer-adress{
-    padding-top: 82px;
+footer{
     background-color: #fff;
+}
+.footer-adress{
+    max-width: 1000px;
+    padding: 82px 10px;
     display: flex;
-    align-items: center;
+    align-items: start;
     margin: 0 auto;  
-    justify-content: center;
+    justify-content: flex-start;
 }
 .footerlogo{
     margin-right: 70px;
     width: 226px; 
-    vertical-align: top;                  /*上揃えしたいが効かない*/
 }
 footer p{
     font-size: 20px;
