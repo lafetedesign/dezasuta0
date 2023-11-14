@@ -186,6 +186,7 @@ footer{
     display: flex;
     align-items: start;
     margin: 0 auto;  
+    box-sizing: border-box;
     justify-content: flex-start;
 }
 .footerlogo{
