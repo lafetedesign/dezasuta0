@@ -54,6 +54,9 @@ body{
     font-size: 23px;
     line-height:1.65;
 }
+.sp{
+    display: none;
+}
 #about{
     max-width: 1000px;
     margin: 0 auto;
@@ -62,9 +65,15 @@ body{
     display: flex;
     align-items: center;
 }
+#about picture{
+    width: 50%;
+}
+#about div{
+    padding-left: 84px;
+    width: 50%;
+}
 .about-img{
-    margin-right: 84px;
-    width: 50%;                          
+    width: 100%;                          
     border-bottom-right-radius:82px;
 }
 .about-title{
@@ -127,6 +136,12 @@ body{
     margin-bottom: 71px;
     width: 20%;
 }
+.gallery-slider picture img{
+    width: 100%;
+}
+.gallery-slider picture{
+    width: 20%;
+}
 #event{
     max-width: 1000px;
     padding: 0 10px;
@@ -152,13 +167,13 @@ body{
     display: flex;
     align-items: center;
 }
-.eventitem p{
+.event-date{
     margin-right: 35px;
     font-size: 23px;
 }
-.eventitem a{
+.eventitem a p{
     font-size: 23px;
-    border-bottom: 1px solid #4f260b;
+    text-decoration: underline;
 }
 .eventitem li:nth-child(2){
     margin: 21px auto;
@@ -220,16 +235,16 @@ footer li{
     z-index: 1;
 }
 
-
-.sp_nav, .hamburger{
+.sp_nav, .hamburger, .sp-about{
     display: none;
 }
+
 @media screen and (max-width: 1100px){
     .sp_nav{
         position: absolute;
         width: 100%;
         height: 100vh;
-        background-color: rgb(000,000,000,0.5);
+        background-color: rgb(000,000,000,0.7);
     }
     .sp_nav ul{
         height: 100%;
@@ -239,7 +254,8 @@ footer li{
     }
     .sp_nav li{
         padding: 16px;
-        font-size: 16px;
+        font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+        font-size: 25px;
         color:#fff;
         text-align: center;
     }
@@ -297,7 +313,154 @@ footer li{
         font-size: 70px;
     }
     .about-lead{
-        font-size: 70px;
-    }
+        font-size: 40px;
+    }   
 }
 
+@media screen and (max-width: 767px){
+    .sp-none{
+        display: none;
+    }
+    .gallery-slider picture img{
+        width: 100%;
+    }
+    .lead01{
+        margin-bottom: 24px;
+        font-size: 17px;
+    }
+    .lead02{
+        margin-bottom: 26px;
+        font-size: 38px;
+        line-height: 1.16;
+    }
+    .lead03{
+        font-size: 16px;
+        width: 338px;
+        margin: 0 auto;
+    }
+    .sp{
+        display: block;
+    }
+    #about{
+        margin: 62px 0 55px 0;
+    }
+    .about-img{
+        border-bottom-right-radius:0px;
+    }
+    .pc-none{
+        display: none;
+    }
+    #about{
+        padding: 0;
+    }
+    #about div{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .sp-about{
+        display: block;
+        margin: 0 auto;
+        padding-left: 0!important;
+    }
+    .sp-about .about-title{
+        width: 160px;
+        margin: 0 auto;
+    }
+    .sp-about .about-img{
+        margin-top: 17px;
+        width: 100%;
+    }
+    .sp-about .about-lead{
+        margin-top: 37px;
+        font-size: 36px;
+        padding: 0 10px;
+    }
+    .sp-about .about-text{
+        margin-top: 34px;
+        font-size: 16px;
+        padding: 0 10px;
+    }
+    #menu{
+        padding: 0 35px;
+    }
+    .menu-title{
+        width: 89px;
+        margin-bottom: 23px;
+    }
+    .menuitem{
+        max-width: 300px;
+        display: block;
+        margin: 0 auto;
+    }
+    .menuitem div{
+        margin-bottom: 58px;
+    }
+    .menuitem h3{
+        margin: -14px 0 31px 10px;
+    }
+    .menuitem p{
+        font-size: 17px;
+    }
+    .gallery-title{
+        width: 143px;
+        margin-top: 91px;
+    }
+    .gallery-slider picture{
+        width: 100%;
+    }
+    #event{
+        padding: 0 20px;
+    }
+    .event-title{
+        width: 101px;
+    }
+    .eventitem{
+        padding: 22px 26px;
+        text-align: left;
+    }
+    .eventitem li{
+        align-items: center;
+        display: block;
+        width: 100%;
+    }
+    .eventitem li:nth-child(2){
+        margin: 27px auto;
+    }
+    .event-date{
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .eventitem a p{
+        font-size: 16px;
+        text-decoration: underline;
+    }
+    .eventitem p{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .footer-adress{
+        display: block;
+        padding: 47px 20px;
+    }
+    .footerlogo{
+        width: 227px;
+        margin-bottom: 36px;
+    }
+    .footer-adress p{
+        font-size: 18px; 
+        line-height: 1.7;    
+    }
+    .copyright{
+        padding-top: 0;
+        padding-bottom: 37px;
+    }
+    footer li{
+        margin-bottom: 0;
+    }
+    .pagetop {
+        height: 100px;
+        width: 100px;
+    }
+}
+    
